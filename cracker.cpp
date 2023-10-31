@@ -7,7 +7,7 @@
 using namespace std;
 
 PasswordGuesser::PasswordGuesser()
-    : allChar("abcdefghijklmnopqrstuvwxyzABCDEFGHIKLMNOPQRSTUVWXYZ0123456789~`!@#$%^&*()-_=+[]{};:<,>.?|/"),
+    : allChar("abcdefghijklmnopqrstuvwxyzABCDEFGHIKLMNOPQRSTUVWXYZ0123456789"),
       currentGuess("")
 {
 }

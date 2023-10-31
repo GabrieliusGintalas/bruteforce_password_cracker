@@ -11,7 +11,7 @@ int main()
     int passwordCounter = 0;
     char passwordBuffer[9];
     cout << "Welcome to the Bruteforce Password Cracker by Gabrielius Gintalas!" << endl;
-    cout << "Please enter up to 8 characters for your password: ";
+    cout << "Please enter up to 8 alphanumeric characters for your password: ";
     cin >> setw(9) >> passwordBuffer;
 
     string password = passwordBuffer;
